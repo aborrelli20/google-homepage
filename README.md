@@ -1,0 +1,1 @@
+This project is to recreate the Google homepage. This is my first project building something on my own from scratch. It was a good introduction to seeing how HTML and CSS work together.
