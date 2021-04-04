@@ -31,6 +31,37 @@ div{
 .btn:hover{
     box-shadow: 0.1em 0.1em 1px rgba(0, 0, 0, 0.1), -0.1em -0.1em 1px rgba(0,0,0,0.1);
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+.float-left{
+    position: relative;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+}
+.float-right{
+    position: relative;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
 </style>
 
 <!DOCTYPE html>
@@ -42,10 +73,11 @@ div{
     <body>
         <header>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
+                <li class="float-left"><a href="#">About</a></li>
+                <li class="float-left"><a href="#">Store</a></li>
+                <li class="float-right"><a href="#">Images</a></li>
+                <li class="float-right"><a href="#">Gmail</a></li>
+                
             </ul>
         </header>
 
@@ -57,14 +89,14 @@ div{
         <button type="submit" class="btn">I'm Feeling Lucky</button></div>
     </form></div>
 
-    <footer>
+    <footer class="footer">
         <ul>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search works</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
+            <li class="float-left"><a href="#">Advertising</a></li>
+            <li class="float-left"><a href="#">Business</a></li>
+            <li class="float-left"><a href="#">How Search works</a></li>       
+            <li class="float-right"><a href="#">Settings</a></li>
+            <li class="float-right"><a href="#">Terms</a></li>
+            <li class="float-right"><a href="#">Privacy</a></li>
         </ul>
     </footer>
     
